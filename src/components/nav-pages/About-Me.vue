@@ -1,7 +1,7 @@
 <template>
   <div id="about-me-wrapper">
     <div id="about-me" >
-      <h1>This is the ABOUT ME View</h1>
+      <h1>This is the About Me View</h1>
     </div>
   </div>
 </template>

@@ -47,31 +47,51 @@ export default {
     background-color: white;
     height: 100vh;
     box-shadow: 10px 0px 8px -6px rgba(0,0,0,0.65);
-  }
-  .sidebar-wrapper{
-    position: relative;
-    width: 100%;
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-    img{
+    .sidebar-wrapper{
       position: relative;
-      width: 200px;
-      margin-left: 50%;
-      margin-top: -2%;
-      transform: translate(-50%, 0);
-    }
-    h2 {
-      text-transform: uppercase;
-      font-size: 20px;
-      font-weight: bold;
-      line-height: 0px;
-      margin-top: 30px;
-    }
-    h3 {
-      text-transform: capitalize;
-      font-weight: 500;
-      font-size: 11px;
-      line-height: 11px
+      width: 100%;
+      text-align: center;
+      font-family: 'Ubuntu', sans-serif;
+      img{
+        position: relative;
+        width: 200px;
+        margin-left: 50%;
+        margin-top: -2%;
+        transform: translate(-50%, 0);
+      }
+      h2 {
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 0px;
+        margin-top: 30px;
+      }
+      h3 {
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 11px
+      }
+      .info {
+        .navigation {
+          ul {
+            padding: 0;
+            li {
+              list-style: none;
+              margin: 15px 0;
+              &:nth-child(1) {
+                margin-top: 30px;
+              }
+              a {
+                text-decoration: none;
+                color: black;
+                font-weight: 500;
+                text-transform: capitalize;
+              }
+            }
+          }
+        }
+      }
     }
   }
 </style>
