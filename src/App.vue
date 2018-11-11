@@ -30,7 +30,7 @@ body {
   #app {
     position: relative;
     background-color: white;
-    width: 1280px;
+    max-width: 1280px;
     margin-top: 0;
     margin: 0 auto;
     height: 1000px;
@@ -38,8 +38,9 @@ body {
     #sidebar-wrapper {
       position: relative;
       width: 332px;
+      min-width: 332px;
       height: 200px;
-      background-color: blue
+      // border: 5px solid black;
     }
   }
 }
